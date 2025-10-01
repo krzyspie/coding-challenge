@@ -1,2 +1,2 @@
 # coding-challenge
-Coding challenges from freecodecamp
+Freecodecamp coding challenges.
