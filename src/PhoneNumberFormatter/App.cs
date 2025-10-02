@@ -2,28 +2,29 @@ namespace PhoneNumberFormatter;
 
 public class App
 {
-    public void Run(string phoneNumber)
+    public string Run(string? phoneNumber)
     {
         if (string.IsNullOrWhiteSpace(phoneNumber))
         {
-            throw new ArgumentNullException(nameof(phoneNumber));
+            throw new ArgumentException("No number entered.");
         }
         
-        if (phoneNumber?.Length != 11)
+        if (phoneNumber.Length != 11)
         {
-            Console.WriteLine("Invalid number entered.");
-            return;
+            throw new ArgumentException("Invalid number entered.");
         }
+        
         var isNumber = ulong.TryParse(phoneNumber, out ulong number);
         if (!isNumber)
         {
-            Console.WriteLine("Is not a number.");
-            return;
+            throw new ArgumentException("Is not a number.");
         }
 
         var formattedPhoneNumber = FormatNumber(number);
         
         Console.WriteLine($"Formatted phone number is: {formattedPhoneNumber}");
+
+        return formattedPhoneNumber;
     }
     private string FormatNumber(ulong number)
     {
