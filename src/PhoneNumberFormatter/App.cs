@@ -2,6 +2,7 @@ namespace PhoneNumberFormatter;
 
 public class App
 {
+    const int ExpectedLength = 11;
     public string Run(string? phoneNumber)
     {
         if (string.IsNullOrWhiteSpace(phoneNumber))
@@ -9,7 +10,7 @@ public class App
             throw new ArgumentException("No number entered.");
         }
         
-        if (phoneNumber.Length != 11)
+        if (phoneNumber.Length != ExpectedLength)
         {
             throw new ArgumentException("Invalid number entered.");
         }
@@ -21,11 +22,10 @@ public class App
         }
 
         var formattedPhoneNumber = FormatNumber(number);
-        
-        Console.WriteLine($"Formatted phone number is: {formattedPhoneNumber}");
 
         return formattedPhoneNumber;
     }
+    
     private string FormatNumber(ulong number)
     {
         string formattedNumber = "";
