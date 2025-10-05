@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneNumberFormatterTests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalToBinary", "src\DecimalToBinary\DecimalToBinary.csproj", "{0B354E79-32EF-405C-9BBA-9F8A9B262F8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalToBinaryTests", "tests\DecimalToBinaryTests\DecimalToBinaryTests.csproj", "{B8853194-A49E-4184-9358-1FC161F9A62E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{0B354E79-32EF-405C-9BBA-9F8A9B262F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B354E79-32EF-405C-9BBA-9F8A9B262F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B354E79-32EF-405C-9BBA-9F8A9B262F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8853194-A49E-4184-9358-1FC161F9A62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8853194-A49E-4184-9358-1FC161F9A62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8853194-A49E-4184-9358-1FC161F9A62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8853194-A49E-4184-9358-1FC161F9A62E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
