@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneNumberFormatter", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneNumberFormatterTests", "tests\PhoneNumberFormatterTests\PhoneNumberFormatterTests.csproj", "{F616F59F-210C-48B4-B7EA-42C569E73987}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalToBinary", "src\DecimalToBinary\DecimalToBinary.csproj", "{0B354E79-32EF-405C-9BBA-9F8A9B262F8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{F616F59F-210C-48B4-B7EA-42C569E73987}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F616F59F-210C-48B4-B7EA-42C569E73987}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F616F59F-210C-48B4-B7EA-42C569E73987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B354E79-32EF-405C-9BBA-9F8A9B262F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B354E79-32EF-405C-9BBA-9F8A9B262F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B354E79-32EF-405C-9BBA-9F8A9B262F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B354E79-32EF-405C-9BBA-9F8A9B262F8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
